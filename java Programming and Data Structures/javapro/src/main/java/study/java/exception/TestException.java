@@ -1,4 +1,4 @@
-package exception;
+package study.java.exception;
 
 public class TestException {
 

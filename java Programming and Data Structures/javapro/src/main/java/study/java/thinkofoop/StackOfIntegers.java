@@ -1,4 +1,4 @@
-package thinkofoop;
+package study.java.thinkofoop;
 
 import java.util.Arrays;
 

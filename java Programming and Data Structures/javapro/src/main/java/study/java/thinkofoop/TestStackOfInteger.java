@@ -1,4 +1,4 @@
-package thinkofoop;
+package study.java.thinkofoop;
 
 public class TestStackOfInteger {
 
