@@ -1,4 +1,4 @@
-package study.javatestfile;
+package study.java.testFile;
 
 import java.io.File;
 import java.util.Date;
