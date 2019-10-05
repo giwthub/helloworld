@@ -1,35 +1,48 @@
 package study.java.objectandclass;
 
-public class Circle {
-	private double radius = 1.0;
-	
-	private static int numberOfObjects = 0;
+import study.java.abstractClass.GeometricObject;
+
+public class Circle extends GeometricObject {
+
+	private double radius;
 	
 	public Circle() {
-		numberOfObjects++;
+		
 	}
 	
-	public Circle(double Radius) {
+	public Circle (double radius) {
 		this.radius = radius;
-		numberOfObjects++;
 	}
+	
+	public Circle(double radius, String color,boolean filled) {
+		this.radius = radius;
+		setColor(color);
+		setFilled(filled);
+	}
+	
+	
 	
 	public double getRadius() {
 		return radius;
 	}
-	
+
 	public void setRadius(double radius) {
-		this.radius = (radius >= 0) ? radius : 0;
+		this.radius = radius;
 	}
-	
-	public int getNumberOfObjects() {
-		return numberOfObjects;
-	}
-	
+
+	@Override
 	public double getArea() {
+		// TODO Auto-generated method stub
 		return radius * radius * Math.PI;
 	}
-	
-	
 
+	@Override
+	public double getPerimeter() {
+		// TODO Auto-generated method stub
+		return 2* radius * Math.PI;
+	}
+
+	public void printCircle() {
+		System.out.println("The circle is created " + getDateCreated() + " and the radius is " + radius);
+	}
 }
