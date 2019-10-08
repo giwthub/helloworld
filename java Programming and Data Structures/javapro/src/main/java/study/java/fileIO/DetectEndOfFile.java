@@ -21,6 +21,7 @@ public class DetectEndOfFile {
 				while (true) {
 					System.out.println(input.readDouble());
 				}
+				
 			} catch (Exception e) {
 				// TODO: handle exception
 				System.out.println("All data were read.");

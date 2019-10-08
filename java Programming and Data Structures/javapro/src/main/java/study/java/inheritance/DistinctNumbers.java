@@ -25,6 +25,8 @@ public class DistinctNumbers {
 			System.out.println(list.get(i) + " ");
 		}
 
+		input.close();
+		
 	}
 
 }

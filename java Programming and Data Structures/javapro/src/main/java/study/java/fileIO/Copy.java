@@ -6,8 +6,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-import javax.imageio.stream.FileImageInputStream;
-
 public class Copy {
 	public static void main(String[] args) throws Exception {
 		if (args.length != 2) {
