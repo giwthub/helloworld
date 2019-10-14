@@ -1,4 +1,4 @@
-package study.java.javapro.GeometricObject;
+package study.java.javapro;
 
 import study.java.abstractClass.GeometricObject;
 import study.java.objectandclass.Circle;
