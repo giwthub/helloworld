@@ -17,9 +17,4 @@ public class RecursivePalindrome {
 			return isPalindrome(s,low + 1,high - 1);
 		}
 	}
-	
-	public static void main(String[] args) throws Exception {
-		RecursivePalindromeUsingSubstring.main(args);
-		
-	}
 }
